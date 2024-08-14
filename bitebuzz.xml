@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BiteBuzz SYSTEM "bitebuzz.dtd">
+<BiteBuzz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bitebuzz.xsd">
+    <Restaurant>
+        <Name>Bite Buzz</Name>
+        <Location>Downtown</Location>
+        <ContactNumber>&Phone1;</ContactNumber>
+        <Email>contact@bitebuzz.com</Email>
+        <Menu>
+            <Dish>
+                <Name>Burger</Name>
+                <Price currency="USD">10.99</Price>
+                <Description>Classic beef burger with lettuce, tomato, and cheese.</Description>
+            </Dish>
+            <Dish>
+                <Name>Margherita Pizza</Name>
+                <Price currency="USD">12.50</Price>
+                <Description>Pizza with tomato, mozzarella, and basil.</Description>
+            </Dish>
+            <Dish>
+                <Name>Caesar Salad</Name>
+                <Price currency="USD">8.75</Price>
+                <Description>Salad with romaine lettuce, parmesan, and Caesar dressing.</Description>
+            </Dish>
+        </Menu>
+    </Restaurant>
+</BiteBuzz>
